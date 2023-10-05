@@ -1,0 +1,33 @@
+import tkinter as tk
+
+okno = tk.Tk()
+
+class Aplikacja():
+
+    def pobierz_zawartosc(self):  
+        zawartosc = self.entry1.get()  
+        
+        promien=float(zawartosc)
+        obwod = 2 *3.14* promien
+        wynik.set(obwod)
+
+
+    def funkcja_przedmioty(self):
+        label1 = tk.Label(okno, text="Podaj promień koła:")
+        label1.grid(row=0, column=0)
+        self.entry1 = tk.Entry(okno) 
+        self.entry1.grid(row=0, column=1)
+        self.button = tk.Button(okno, text="Oblicz obwód", command=self.pobierz_zawartosc)  
+        self.button.grid(row=0, column=2)
+        
+wynik=tk.IntVar()
+
+label3=tk.Label(okno,textvariable=wynik)
+label3.grid(row=1,column=0,columnspan=3)
+
+
+aplikacja = Aplikacja()
+aplikacja.funkcja_przedmioty()
+
+
+okno.mainloop()
