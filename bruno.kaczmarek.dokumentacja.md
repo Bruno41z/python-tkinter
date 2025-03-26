@@ -47,7 +47,8 @@ Otwórz Test Explorer (Test > Windows > Test Explorer).
 
 Uruchom testy klikając na Run All.
 
-###Z terminala
+### Z terminala
 Uruchom testy używając komendy:
-**dotnet test**
-
+```bash
+dotnet test
+```
