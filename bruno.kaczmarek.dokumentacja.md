@@ -14,7 +14,7 @@ Testy jednostkowe polegają na testowaniu pojedynczych jednostek kodu (np. metod
 - Pomagają w utrzymaniu aplikacji na dłuższą metę.
 
 ### Opis frameworka xUnit i jego zastosowania w testowaniu aplikacji WPF
-xUnit to popularny framework do testów jednostkowych w C#. Umożliwia łatwe pisanie testów, oferując asercje, uruchamianie testów oraz generowanie raportów. W aplikacjach WPF xUnit może być używane do testowania logiki biznesowej i sprawdzania poprawności reakcji na zmiany w interfejsie użytkownika.
+xUnit to popularny framework do testów jednostkowych w C#. Umożliwia łatwe pisanie testów, uruchamianie testów oraz generowanie raportów. W aplikacjach WPF xUnit może być używane do testowania logiki biznesowej i sprawdzania poprawności reakcji na zmiany w interfejsie użytkownika.
 
 ---
 
@@ -24,7 +24,7 @@ xUnit to popularny framework do testów jednostkowych w C#. Umożliwia łatwe pi
 1. Otwórz **Visual Studio**.
 2. Kliknij **File > New > Project**.
 3. Wybierz **xUnit Test Project**.
-4. Ustaw projekt testowy w tej samej solucji, co główny projekt WPF.
+4. Ustaw projekt testowy w tym samym miejscu, co główny projekt WPF.
 
 ### Konfiguracja frameworka testowego i dodanie referencji do głównego projektu
 1. Kliknij prawym przyciskiem myszy na projekt testowy.
