@@ -39,7 +39,7 @@ Aby zainstalować xUnit i wymagane pakiety, użyj poniższych komend:
 dotnet add package xunit
 dotnet add package xunit.runner.visualstudio
 dotnet add package Microsoft.NET.Test.Sdk
-```bash
+```
 
 ## 4. **Uruchamianie testów**
 W Visual Studio
